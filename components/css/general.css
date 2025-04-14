@@ -1,0 +1,1083 @@
+.ant-drawer-header-title {
+  display: flex;
+  justify-content: end;
+}
+
+.head-title {
+  font-size: 4rem !important;
+  color: white !important;
+  font-weight: bold !important;
+}
+
+.hero-subtitle {
+  text-align: start;
+  margin-bottom: 10px;
+  font-size: 2.5rem !important;
+  letter-spacing: 1.8px;
+  word-spacing: 0.8px;
+  color: rgb(255, 255, 255) !important;
+  font-weight: 500;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+@media (max-width: 500px) {
+  .hero-container {
+    margin: 0px 0px;
+    padding: 30px;
+  }
+
+  .head-title {
+    font-size: 3rem !important;
+  }
+
+  .hero-subtitle {
+    font-size: 1.2rem !important;
+  }
+}
+
+
+html {
+  height: 100%;
+}
+
+.brand-section {
+  overflow-x: auto;
+  white-space: nowrap;
+  margin: 10px;
+}
+
+.brand-section img {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.footer-link {
+  margin-top: 10px;
+  color: rgb(255, 255, 255);
+  margin-left: -10px;
+}
+
+.footer-link:hover {
+  margin-top: 10px;
+  color: #3030f5b4;
+}
+
+.ant-steps-item-process .ant-steps-item-icon {
+  background: #44B883 !important;
+  border: none;
+}
+
+.ant-steps .ant-steps-item-finish .ant-steps-item-icon {
+  background-color: #44B883 !important;
+}
+
+@media (max-width: 760px) {
+  .ant-steps-item-title {
+    font-size: 12px;
+    min-width: 100px;
+  }
+
+  .ant-steps-item {
+    margin: 0 5px;
+  }
+}
+
+
+.anticon.anticon-check.ant-steps-finish-icon {
+  color: white !important;
+}
+
+
+.service-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 2rem auto;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 1200px) {
+  .service-container {
+    margin-left: 1rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .service-container {
+    margin-left: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .service-container {
+    margin-left: 1rem;
+  }
+}
+
+
+.businessCycle-container {
+  align-items: start;
+  height: 100%;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 8px;
+  width: 85%;
+  min-width: 60rem;
+  margin: auto 5rem;
+  margin-left: 7rem;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 1200px) {
+  .businessCycle-container {
+    margin-left: 5rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .businessCycle-container {
+    margin-left: 3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .businessCycle-container {
+    margin-left: 1rem;
+  }
+}
+
+
+
+
+.custom-table {
+  width: 100%;
+
+  overflow-x: auto;
+}
+
+
+.ant-table th,
+.ant-table td {
+  padding: 12px;
+  text-align: start;
+  font-size: 16px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.ant-table {
+  border-collapse: collapse;
+  table-layout: auto;
+}
+
+
+.custom-table thead {
+  background-color: #e7e8fb !important;
+}
+
+.custom-table thead>tr>th {
+  background-color: #e7e8fb !important;
+  color: #626dcf !important;
+  font-weight: bold;
+}
+
+
+@media (max-width: 768px) {
+
+  .ant-table th,
+  .ant-table td {
+    font-size: 14px;
+    padding: 10px;
+  }
+}
+
+.ant-tabs-tab {
+  font-size: 16px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  transition: none;
+}
+
+.ant-tabs-tab-active {
+  color: #121bda !important;
+}
+
+.ant-tabs-tab:not(.ant-tabs-tab-active) {
+  background-color: #e5e5e5 !important;
+  color: #858587 !important;
+}
+
+.ant-tabs-tab:hover {
+  transition: none;
+}
+
+.ant-tabs-ink-bar {
+  background-color: transparent;
+}
+
+
+.general-table {
+  border-radius: 0 0 10px 10px !important;
+}
+
+
+.general-table thead {
+  background-color: #e7e8fb !important;
+  height: 1rem;
+}
+
+.general-table thead>tr>th {
+  background-color: #e7e8fb !important;
+  color: #626dcf !important;
+  font-weight: bold;
+}
+
+.general-table table {
+  height: 13rem;
+}
+
+.custom-descriptions {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.custom-descriptions .ant-descriptions-item-label {
+  font-weight: bold;
+  color: #444;
+}
+
+.custom-descriptions .ant-descriptions-item-content {
+  color: #666;
+}
+
+.custom-descriptions a {
+  color: #1E40AF;
+  text-decoration: none;
+}
+
+.custom-descriptions a:hover {
+  text-decoration: underline;
+}
+
+.custom-descriptions .borderless-cell {
+  border: none;
+  display: inline-block;
+}
+
+.business-cycle-table {
+  border-radius: 10px 10px 0 0 !important;
+}
+
+.business-cycle-table thead {
+  background-color: #e7e8fb !important;
+}
+
+.business-cycle-table thead>tr>th {
+  background-color: #e7e8fb !important;
+  color: #626dcf !important;
+  font-weight: bold;
+}
+
+.general-table thead th,
+.business-cycle-table thead th {
+  text-transform: uppercase;
+  text-align: center !important;
+}
+
+
+.priority-tag {
+  border-radius: 12px;
+  padding: 4px 8px;
+  font-weight: bold;
+}
+
+.priority-high {
+  background-color: #ffcccc;
+  color: #ff0000;
+}
+
+.priority-medium {
+  background-color: #ffebcc;
+  color: #ff9900;
+}
+
+.priority-low {
+  background-color: #ccffcc;
+  color: #33cc33;
+}
+
+.priority-not-selected {
+  background-color: #e0e0e0;
+  color: #999999;
+}
+
+.priority-select {
+  border-radius: 4px;
+}
+
+.priority-select.low {
+  background-color: #f0f9f0 !important;
+  color: green !important;
+  border-color: #b7eb8f !important;
+}
+
+.priority-select.medium {
+  background-color: #fff7e6 !important;
+  color: orange !important;
+  border-color: #ffd591 !important;
+}
+
+.priority-select.high {
+  background-color: #fff1f0 !important;
+  color: red !important;
+  border-color: #ffa39e !important;
+}
+
+.priority-option {
+  padding: 8px 12px;
+  margin: 4px 0;
+  border-radius: 4px;
+}
+
+.ant-select-selector {
+  background-color: inherit !important;
+  color: inherit !important;
+  border-color: inherit !important;
+}
+
+.priority-select.ant-select-focused .ant-select-selector {
+  border-color: inherit !important;
+  box-shadow: none !important;
+}
+
+.priority-select .ant-select-selection-item {
+  color: inherit !important;
+}
+
+.site-navigation-steps {
+  width: 100%;
+  margin: 0 auto;
+  overflow-x: auto;
+  padding: 0 10px;
+}
+
+.site-navigation-steps .ant-steps-item {
+  flex: 1;
+  min-width: 150px;
+  padding: 0 8px;
+  margin: 0;
+}
+
+.site-navigation-steps .ant-steps-item-title {
+  font-size: 14px;
+  white-space: normal;
+  word-break: break-word;
+  text-align: center;
+  line-height: 1.4;
+  padding-inline-end: 0 !important;
+}
+
+.site-navigation-steps .ant-steps-item-description {
+  text-align: center;
+  padding: 0 4px;
+}
+
+@media (max-width: 768px) {
+  .site-navigation-steps {
+    width: 95%;
+  }
+
+  .ant-steps-item-title {
+    font-size: 12px;
+    max-width: 80px;
+  }
+
+  .ant-steps-item {
+    padding: 0 4px;
+  }
+
+  .site-navigation-steps .ant-steps-item {
+    min-width: 120px;
+  }
+
+  .site-navigation-steps .ant-steps-item-title {
+    font-size: 12px;
+  }
+}
+
+.ant-steps {
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+  flex-wrap: nowrap;
+  scrollbar-width: thin;
+}
+
+.ant-steps::-webkit-scrollbar {
+  height: 4px;
+}
+
+.ant-steps::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.ant-steps::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+.ant-steps::-webkit-scrollbar-track {
+  background: #f0f0f0;
+  border-radius: 4px;
+}
+
+.ant-steps::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+/* Yeni Steps stilleri */
+.registration-steps-wrapper {
+  margin: 0 auto 20px;
+  padding: 10px 0;
+}
+
+.registration-steps-wrapper .ant-steps-item-title {
+  font-size: 12px;
+  font-weight: 300;
+}
+.registration-steps-wrapper .ant-steps-item {
+  flex: 1; /* İçerik yeterli alanı kaplayabilir */
+  min-width: 120px; /* Küçük ekranlarda sıkışmayı önler */
+  text-align: center;
+}
+
+.registration-steps-wrapper .ant-steps-item-description {
+  font-size: 10px;
+  color: rgba(0, 0, 0, 0.45);
+  font-weight: 300;
+}
+
+.registration-steps-wrapper .ant-steps-item-process .ant-steps-item-icon {
+  background: #44B883;
+  border-color: #44B883;
+  width: 24px !important;
+  height: 24px !important;
+  font-size: 12px !important;
+  line-height: 24px !important;
+}
+
+.registration-steps-wrapper .ant-steps-item-finish .ant-steps-item-icon {
+  background: #44B883;
+  border-color: #44B883;
+}
+
+.registration-steps-wrapper .ant-steps-item-finish .ant-steps-icon {
+  color: white;
+}
+
+.registration-steps-wrapper .ant-steps-item-process>.ant-steps-item-container>.ant-steps-item-content>.ant-steps-item-title {
+  color: #44B883;
+  font-weight: 300;
+}
+
+.registration-steps-wrapper .ant-steps-item-finish .ant-steps-item-tail::after {
+  background-color: #44B883;
+  height: 1px !important;
+}
+
+/* Responsive tasarım için */
+@media (max-width: 768px) {
+  .registration-steps-wrapper .ant-steps-item-title {
+    font-size: 11px;
+  }
+
+  .registration-steps-wrapper .ant-steps-item-description {
+    font-size: 9px;
+  }
+
+  .registration-steps-wrapper {
+    padding: 5px 0;
+    margin-bottom: 15px;
+  }
+
+  .registration-steps-wrapper .ant-steps-item-icon {
+    width: 20px !important;
+    height: 20px !important;
+    font-size: 10px !important;
+    line-height: 20px !important;
+  }
+}
+
+/* Segmented bileşeni için özel stiller */
+.auth-segment {
+  background-color: rgba(255, 255, 255, 0.2) !important;
+  padding: 4px !important;
+  border-radius: 12px !important;
+  border: 1px solid rgba(255, 255, 255, 0.3) !important;
+  backdrop-filter: blur(8px);
+}
+
+.auth-segment .ant-segmented-item {
+  transition: all 0.3s ease;
+  min-width: 120px;
+  padding: 4px 16px;
+}
+
+.auth-segment .ant-segmented-item-label {
+  font-size: 14px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.65);
+  padding: 4px 8px;
+}
+
+.auth-segment .ant-segmented-item-selected {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.auth-segment .ant-segmented-item:hover:not(.ant-segmented-item-selected) {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 8px;
+}
+
+.auth-segment .ant-segmented-thumb {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+/* Submit butonları için özel stiller */
+.auth-submit-button {
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  background: linear-gradient(45deg, #44B883, #44B883);
+  border: none;
+}
+
+.auth-submit-button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(98, 109, 207, 0.3);
+  background: linear-gradient(45deg, #44B883, #44B883);
+}
+
+.auth-submit-button:active {
+  transform: translateY(1px);
+  box-shadow: 0 2px 6px rgba(98, 109, 207, 0.2);
+}
+
+/* Mobil görünüm için */
+@media (max-width: 768px) {
+  .auth-segment .ant-segmented-item {
+    min-width: 100px;
+    padding: 2px 12px;
+  }
+
+  .auth-segment .ant-segmented-item-label {
+    font-size: 13px;
+  }
+}
+
+
+.auth-submit-button:hover {
+  opacity: 0.9;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.back-to-login-button:hover {
+  background: rgba(102, 126, 234, 0.05);
+  transform: translateY(-1px);
+}
+
+
+.fadeInDown {
+  animation: fadeInDown 0.5s ease-out;
+  width: 100%;
+}
+
+.fadeInUp {
+  animation: fadeInUp 0.5s ease-out;
+  width: 100%;
+  animation-delay: 0.2s;
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.authSubmitButton {
+  transition: all 0.3s ease !important;
+}
+
+.authSubmitButton:hover {
+  opacity: 0.95 !important;
+  transform: translateY(-2px) !important;
+  box-shadow: 0 4px 12px rgba(98, 109, 207, 0.2) !important;
+}
+
+.authSubmitButton:active {
+  transform: translateY(0) !important;
+}
+
+.backToLoginButton {
+  transition: all 0.3s ease !important;
+}
+
+.backToLoginButton:hover {
+  background-color: rgba(98, 109, 207, 0.05) !important;
+  transform: translateY(-2px) !important;
+}
+
+.backToLoginButton:active {
+  transform: translateY(0) !important;
+}
+
+/* Modal için özel stiller */
+.custom-modal {
+  overflow: visible !important;
+}
+
+.custom-modal .ant-modal {
+  transform-origin: center !important;
+  animation: modalZoomIn 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+.custom-modal.ant-modal-wrap-rtl .ant-modal {
+  animation: modalZoomIn 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+/* Modal açılış/kapanış animasyonları */
+@keyframes modalZoomIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Modal mask animasyonu */
+.custom-modal .ant-modal-mask {
+  backdrop-filter: blur(8px) !important;
+  background: rgba(0, 0, 0, 0.2) !important;
+  animation: modalMaskFadeIn 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+@keyframes modalMaskFadeIn {
+  from {
+    backdrop-filter: blur(0px);
+    background: rgba(0, 0, 0, 0);
+  }
+  to {
+    backdrop-filter: blur(8px);
+    background: rgba(0, 0, 0, 0.2);
+  }
+}
+
+/* İçerik animasyonları */
+.custom-modal .ant-modal-content {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+/* Buton animasyonları */
+.custom-modal .ant-btn {
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+.custom-modal .ant-btn:active {
+  transform: scale(0.98) !important;
+}
+
+/* Tablo hover animasyonları */
+.custom-modal .ant-table-tbody > tr > td {
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+.custom-modal .ant-table-tbody > tr:hover {
+  transform: translateY(-1px) !important;
+  transition: transform 0.2s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+/* Radio button animasyonları */
+.custom-modal .ant-radio-inner {
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+.custom-modal .ant-radio-inner::after {
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+/* Scroll bar animasyonları */
+.custom-modal .ant-table-body::-webkit-scrollbar-thumb {
+  transition: background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+/* Card hover animasyonu */
+.custom-modal .ant-card {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+.custom-modal .ant-card:hover {
+  transform: translateY(-2px) !important;
+  box-shadow: 0 4px 12px rgba(129, 0, 242, 0.08) !important;
+}
+
+/* Pagination animasyonları */
+.custom-modal .ant-pagination-item {
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+.custom-modal .ant-pagination-item:hover {
+  transform: translateY(-1px) !important;
+}
+
+/* Close button animasyonu */
+.custom-modal .ant-modal-close {
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+.custom-modal .ant-modal-close:hover {
+  transform: rotate(90deg) !important;
+}
+
+/* Üst kısım - Filter ve Card container */
+.custom-modal .header-container {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: flex-start !important;
+  margin-bottom: 24px !important;
+  gap: 16px !important;
+  padding: 0 4px !important;
+}
+
+/* Tablo container */
+.custom-modal .table-container {
+  background: #ffffff !important;
+  border-radius: 12px !important;
+  box-shadow: 0 2px 8px rgba(224, 225, 250, 0.2) !important;
+  border: 1px solid rgba(224, 225, 250, 0.4) !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+/* Tablo stilleri */
+.custom-modal .ant-table {
+  background: transparent !important;
+  border-radius: 12px !important;
+}
+
+.custom-modal .ant-table-container {
+  border-radius: 12px !important;
+  overflow: hidden !important;
+}
+
+/* Tablo başlık */
+.custom-modal .ant-table-thead > tr > th {
+  padding: 12px 8px !important;
+  background: rgb(224, 225, 250) !important;
+  font-weight: 600 !important;
+  text-align: left !important;
+  font-size: 14px !important;
+}
+
+/* Tablo hücreleri */
+.custom-modal .ant-table-tbody > tr > td {
+  padding: 8px !important;
+  transition: background-color 0.2s ease !important;
+}
+
+/* Hover efekti */
+.custom-modal .ant-table-tbody > tr:hover > td {
+  background: rgba(224, 225, 250, 0.2) !important;
+  transform: translateY(-1px) !important;
+}
+
+/* Seçili satır */
+.custom-modal .ant-table-row-selected > td {
+  background: rgba(224, 225, 250, 0.3) !important;
+  position: relative !important;
+}
+
+/* Scroll bar */
+.custom-modal .ant-table-body::-webkit-scrollbar-track {
+  background: rgba(224, 225, 250, 0.2) !important;
+  border-radius: 4px !important;
+}
+
+.custom-modal .ant-table-body::-webkit-scrollbar-thumb {
+  background: rgba(224, 225, 250, 0.8) !important;
+  border-radius: 4px !important;
+}
+
+.custom-modal .ant-table-body::-webkit-scrollbar-thumb:hover {
+  background: rgba(224, 225, 250, 1) !important;
+}
+
+/* Butonlar */
+.custom-modal .ant-btn {
+  height: 40px !important;
+  padding: 0 20px !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 8px !important;
+  font-weight: 500 !important;
+  border-radius: 6px !important;
+  transition: all 0.3s ease !important;
+}
+
+.custom-modal .ant-btn-default {
+  background: #ffffff !important;
+  border: 1px solid rgb(129, 0, 242) !important;
+  color: rgb(129, 0, 242) !important;
+}
+
+.custom-modal .ant-btn-default:hover {
+  background: rgba(129, 0, 242, 0.05) !important;
+  transform: translateY(-1px) !important;
+  box-shadow: 0 2px 6px rgba(129, 0, 242, 0.08) !important;
+}
+
+.custom-modal .ant-btn-primary {
+  background: rgb(129, 0, 242) !important;
+  border: 1px solid rgb(129, 0, 242) !important;
+  color: #ffffff !important;
+}
+
+.custom-modal .ant-btn-primary:hover {
+  background: rgba(129, 0, 242, 0.9) !important;
+  transform: translateY(-1px) !important;
+  box-shadow: 0 2px 6px rgba(129, 0, 242, 0.12) !important;
+}
+
+/* Card */
+.custom-modal .ant-card {
+  background: #ffffff !important;
+  border: 1px solid rgba(129, 0, 242, 0.1) !important;
+  border-radius: 8px !important;
+  box-shadow: 0 1px 4px rgba(129, 0, 242, 0.04) !important;
+}
+
+/* Pagination */
+.custom-modal .ant-pagination {
+  margin: 16px 0 8px !important;
+  padding: 0 16px !important;
+}
+
+.custom-modal .ant-pagination-item {
+  border-radius: 6px !important;
+  background: #ffffff !important;
+  border: 1px solid rgba(129, 0, 242, 0.1) !important;
+  transition: all 0.2s ease !important;
+}
+
+.custom-modal .ant-pagination-item:hover,
+.custom-modal .ant-pagination-item-active {
+  border-color: rgb(129, 0, 242) !important;
+  color: rgb(129, 0, 242) !important;
+}
+
+/* Radio button */
+.custom-modal .ant-radio-wrapper {
+  margin-right: 0 !important;
+}
+
+.custom-modal .ant-radio-inner {
+  width: 18px !important;
+  height: 18px !important;
+  background: #ffffff !important;
+  border: 2px solid #d9d9d9 !important;
+  transition: all 0.2s ease !important;
+}
+
+.custom-modal .ant-radio-checked .ant-radio-inner {
+  border-color: rgb(129, 0, 242) !important;
+  animation: radioSelect 0.2s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+@keyframes radioSelect {
+  0% {
+    transform: scale(0.8);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Scroll bar özelleştirmesi */
+.custom-modal .ant-table-body::-webkit-scrollbar {
+  width: 8px !important;
+  height: 8px !important;
+}
+
+.custom-modal .ant-table-body::-webkit-scrollbar-track {
+  background: rgba(129, 0, 242, 0.05) !important;
+  border-radius: 4px !important;
+}
+
+.custom-modal .ant-table-body::-webkit-scrollbar-thumb {
+  background: rgba(129, 0, 242, 0.6) !important;
+  border-radius: 4px !important;
+  opacity: 0.5 !important;
+}
+
+.custom-modal .ant-table-body::-webkit-scrollbar-thumb:hover {
+  background: rgba(129, 0, 242, 0.8) !important;
+}
+
+/* Checkbox animasyonları */
+.custom-modal .ant-checkbox-wrapper {
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+.custom-modal .ant-checkbox-checked .ant-checkbox-inner {
+  background-color: rgb(129, 0, 242) !important;
+  border-color: rgb(129, 0, 242) !important;
+  animation: checkboxSelect 0.2s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+@keyframes checkboxSelect {
+  0% {
+    transform: scale(0.8);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Filter dropdown stilleri */
+.custom-modal .ant-table-filter-dropdown {
+  padding: 12px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(129, 0, 242, 0.15);
+}
+
+.custom-modal .ant-table-filter-dropdown input {
+  border-color: rgb(129, 0, 242);
+}
+
+.custom-modal .ant-table-filter-dropdown input:focus {
+  border-color: rgb(129, 0, 242);
+  box-shadow: 0 0 0 2px rgba(129, 0, 242, 0.2);
+}
+
+/* Seçili satır stilleri - çoklu seçim için güncellendi */
+.custom-modal .selected-row td {
+  background: rgba(129, 0, 242, 0.05) !important;
+}
+
+.custom-modal .selected-row:hover td {
+  background: rgba(129, 0, 242, 0.1) !important;
+}
+
+/* Tablo satır hover efekti */
+.custom-modal .ant-table-tbody > tr:hover {
+  background-color: rgba(129, 0, 242, 0.03) !important;
+}
+
+/* Seçili satır stilleri */
+.custom-modal .selected-row td {
+  background: rgba(129, 0, 242, 0.05) !important;
+}
+
+.custom-modal .selected-row:hover td {
+  background: rgba(129, 0, 242, 0.08) !important;
+}
+
+/* Seçim temizleme butonu */
+.custom-modal .ant-btn-link:hover {
+  background: rgba(129, 0, 242, 0.05) !important;
+  border-radius: 4px !important;
+}
+
+.custom-modal .ant-btn-link:active {
+  transform: scale(0.98) !important;
+}
+
+.ant-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -12px;
+  margin-right: -12px;
+}
+
+.ant-col {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+@media (max-width: 1200px) {
+  .ant-col {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  .ant-col {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+
+.custom-descriptions .ant-descriptions-item {
+  transition: all 0.3s ease;
+}
+
+.custom-descriptions .ant-descriptions-item:hover {
+  background-color: #fafafa;
+}
+
+.custom-descriptions .ant-descriptions-item-label {
+  transition: background-color 0.3s ease;
+}
+
+.custom-descriptions .ant-descriptions-item:hover .ant-descriptions-item-label {
+  background-color: #f0f0f0;
+}

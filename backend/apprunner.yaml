@@ -1,0 +1,53 @@
+version: 1.0
+runtime: python311
+build:
+  commands:
+    build:
+      - python3.11 -m ensurepip --upgrade
+      - python3.11 -m pip install Django
+      - python3.11 -m pip install -r requirements.txt
+      - python3.11 -m pip install gunicorn
+  env:
+    - name: DEBUG
+      value: "on"
+    - name: SECRET_KEY
+      value: "jjijf_zzlwu6!8g5hkxqt4k&dt+b#$3^cy6u6!l-1h)gl(e645"
+    - name: ALLOWED_HOSTS
+      value: "4becacwxmf.us-east-1.awsapprunner.com"
+    - name: DB_NAME
+      value: "postgres"
+    - name: DB_USER
+      value: "postgres" 
+    - name: DB_PASSWORD
+      value: "pis1XDU5fObVMBZihgI5"
+    - name: DB_HOST
+      value: "rfp-development.cbeey2022hiv.us-east-1.rds.amazonaws.com"
+    - name: DB_PORT
+      value: "5432"
+run:
+  runtime-version: 3.11
+  pre-run:
+    - pip3 install gunicorn
+    - pip3 install -r requirements.txt
+    - which gunicorn
+  command: gunicorn requestforproposalbackend.wsgi:application  --log-file -
+  network: 
+    port: 8000
+    env: 8000  
+  env:
+    - name: DEBUG
+      value: "on"
+    - name: SECRET_KEY
+      value: "jjijf_zzlwu6!8g5hkxqt4k&dt+b#$3^cy6u6!l-1h)gl(e645"
+    - name: ALLOWED_HOSTS
+      value: "4becacwxmf.us-east-1.awsapprunner.com,"
+    - name: DB_NAME
+      value: "postgres"
+    - name: DB_USER
+      value: "postgres"
+    - name: DB_PASSWORD
+      value: "pis1XDU5fObVMBZihgI5"
+    - name: DB_HOST
+      value: "rfp-development.cbeey2022hiv.us-east-1.rds.amazonaws.com"
+    - name: DB_PORT
+      value: "5432"

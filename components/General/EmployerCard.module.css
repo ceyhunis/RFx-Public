@@ -1,0 +1,89 @@
+.container {
+  border: 1px solid #e8e8e8;
+  border-radius: 8px;
+  width: 80%; /* Reduced width */
+  max-width: 550px; /* Optional max-width */
+  background-color: rgba(3, 50, 254, 0.1) !important; /* Ensure the background color is applied */
+  transition: all 0.3s ease;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  height: 150px;
+  margin: 0 auto; /* Center the card on the X-axis */
+}
+
+.container:hover {
+  background-color: rgba(3, 50, 254, 0.2) !important; 
+  border-color: #0050ff;
+}
+
+.employerTag {
+  background-color: #626dcf;
+  color: #ffffff;
+  padding: 4px 8px;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  font-size: 12px;
+  text-align: center;
+  align-self: flex-start;
+}
+
+.content {
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  align-items: center;
+  text-align: center;
+}
+
+.header {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.subHeader {
+  margin: 3px 0;
+  color: #666;
+  font-size: 12px;
+}
+
+.infoOverlay {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: rgba(22, 119, 255, 0.05);
+  padding: 4px 8px;
+  font-size: 11px;
+  color: #1677ff;
+  opacity: 1; /* Always visible */
+  transition: opacity 0.2s ease;
+  border-radius: 4px;
+  backdrop-filter: blur(2px);
+  border: 1px solid rgba(22, 119, 255, 0.1);
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  line-height: 1;
+}
+
+.container:hover .infoOverlay {
+  opacity: 1;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .container {
+    width: 90%; /* Adjust width for smaller screens */
+    height: auto; /* Adjust height for smaller screens */
+  }
+
+  .header {
+    font-size: 12px; /* Adjust font size for smaller screens */
+  }
+
+  .subHeader {
+    font-size: 10px; /* Adjust font size for smaller screens */
+  }
+}
